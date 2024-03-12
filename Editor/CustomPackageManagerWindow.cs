@@ -26,7 +26,7 @@ namespace HCG.PackageManagerEditor
 
         private void OnGUI()
         {
-            GUILayout.Label("Custom Package Manager", EditorStyles.boldLabel);
+            GUILayout.Label("Package Manager", EditorStyles.boldLabel);
 
             foreach (var gitUrl in _gitUrls)
             {
