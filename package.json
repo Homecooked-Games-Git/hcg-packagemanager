@@ -1,0 +1,15 @@
+{
+  "name": "com.hcg.packagemanager",
+  "version": "1.0.0",
+  "displayName": "Package Manager",
+  "description": "Custom HC Package Manager",
+  "unity": "2019.1",
+  "dependencies": {
+    
+  },
+  "author": {
+    "name" : "Homecooked Games"
+  },
+  "keywords": [
+  ]
+}
