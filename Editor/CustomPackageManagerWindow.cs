@@ -65,9 +65,7 @@ namespace HCG.PackageManagerEditor
                 // Extracting the part after "com.hcg." and before the "@" symbol, which should be the package short name
                 var packageName = match.Groups[1].Value;
                 // Debug.Log(packageName);
-                var packageShortName = packageName.Split('.')[1]; // Assuming the format is always "com.hcg.[name]"
-                // Debug.Log(packageShortName);
-                dependencies.Add(packageShortName);
+                dependencies.Add(packageName);
             }
 
             return dependencies; // Returns a list of all extracted package short names
