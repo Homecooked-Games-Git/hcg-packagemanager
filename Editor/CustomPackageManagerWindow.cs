@@ -13,7 +13,8 @@ namespace HCG.PackageManagerEditor
         private readonly string[] _gitUrls =
         {
             "https://github.com/Homecooked-Games-Git/hcg-observerservice.git",
-            "https://github.com/Homecooked-Games-Git/hcg-extensions.git"
+            "https://github.com/Homecooked-Games-Git/hcg-extensions.git",
+            "https://github.com/Homecooked-Games-Git/hcg-utilities.git"
         };
 
         // Add menu named "Custom Package Manager" to the Window menu
