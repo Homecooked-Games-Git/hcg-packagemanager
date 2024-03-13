@@ -57,8 +57,7 @@ namespace HCG.PackageManagerEditor
         {
             var dependencies = new List<string>();
             // This regex pattern is designed to capture package names in the format "com.anything.anything@version"
-            const string pattern = @"com\.([a-zA-Z0-9_.-]+) \(dependency\): Package \[([a-zA-Z0-9_.-]+)@[0-9.]+\] cannot be found";
-            var matches = Regex.Matches(errorMessage, pattern);
+            const string pattern = @"com\.hcg\.([a-zA-Z0-9_.-]+) \(dependency\): Package \[([a-zA-Z0-9_.-]+)@[0-9.]+\] cannot be found";            var matches = Regex.Matches(errorMessage, pattern);
 
             foreach (Match match in matches)
             {
