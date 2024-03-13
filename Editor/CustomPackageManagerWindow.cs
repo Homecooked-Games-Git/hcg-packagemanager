@@ -94,6 +94,7 @@ namespace HCG.PackageManagerEditor
                         break;
                     // Debug.LogError($"Failed to add package from {gitUrl}. Error: {request.Error.message}");
                     case StatusCode.Failure when !request.Error.message.Contains("cannot be found"):
+                        Debug.LogError(request.Error.message);
                         return;
                     case StatusCode.Failure:
                     {

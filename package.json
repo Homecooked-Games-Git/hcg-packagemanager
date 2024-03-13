@@ -1,6 +1,6 @@
 {
   "name": "com.hcg.packagemanager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Package Manager",
   "description": "Custom HC Package Manager",
   "unity": "2019.1",
